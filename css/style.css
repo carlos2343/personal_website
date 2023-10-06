@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    background: url("../images/fancy-cushion.webp");
+
+}
+
+h2 {
+    padding: 0 0 0.5em 0;
+}
+
+h3 {
+    padding: 0.5em 0;
+}
+
+header {
+    padding: 60px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+
+}
+
+nav {
+    display: flex;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+main {
+    display: flex;
+
+
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    color: white;
+
+}
+
+section {
+    flex: 3;
+    padding: 20px;
+    color: white;
+}
+aside,section{
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+}
+
+
+
+.profile img {
+    max-width: 100%;
+    max-height: 110%;
+    display: block;
+
+}
+
+.roster img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.car {
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+
+.car img {
+    max-width: 90%;
+    max-height: 400px;
+    display: block;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background: #ddd;
+}
+
+.car video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#wrapper {
+    max-width: 900px;
+    margin: auto;
+}
